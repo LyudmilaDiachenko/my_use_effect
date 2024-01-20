@@ -18,7 +18,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "server": "json-server --watch db.json --p 4040",
-    "deploy": "gh-pages -d build"
+   "predeploy": "npm run build",
+   "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
