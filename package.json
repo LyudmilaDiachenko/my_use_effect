@@ -1,5 +1,6 @@
 {
   "name": "my_use_efect",
+  "homepage": "https://gitname.github.io/react-gh-pages",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,7 +17,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": "json-server --watch db.json --p 4040"
+    "server": "json-server --watch db.json --p 4040",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
