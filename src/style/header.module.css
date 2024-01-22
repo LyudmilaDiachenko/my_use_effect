@@ -1,3 +1,10 @@
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 0 50px;
+}
 .frame {
   align-items: center;
   background-color: var(--a);
@@ -8,7 +15,6 @@
   position: relative;
   width: 1440px;
 }
-
 .div {
   align-items: center;
   display: inline-flex;
@@ -17,7 +23,6 @@
   justify-content: center;
   position: relative;
 }
-
 .div2 {
   align-items: center;
   background-color: #ffffff;
@@ -29,7 +34,6 @@
   position: relative;
   width: 438px;
 }
-
 .textWrapper {
   color: #292d32;
   font-family: "Poppins-Regular", Helvetica;
@@ -40,7 +44,6 @@
   position: relative;
   width: fit-content;
 }
-
 .divWrapper {
   align-items: center;
   background-color: var(--b);
@@ -54,7 +57,6 @@
   top: 0;
   width: 132px;
 }
-
 .textWrapper2 {
   color: #054a83;
   font-family: "Poppins-SemiBold", Helvetica;

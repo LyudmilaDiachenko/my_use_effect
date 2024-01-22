@@ -18,7 +18,13 @@ export default function Header() {
     }
   
     return (
-    <div className={s.frame}>
+      <header className={s.hearder}>
+      <div className={s.logo}>maxvel</div>
+      <a href="/main">Main</a>
+      <a href="/catalog">Catalog</a>
+      <a href="/news">News</a>
+
+      <div className={s.frame}>
       <div className={s.div}>
         <form className={s.div2}>
           <div className={s.textWrapper}>Serach any things</div>
@@ -34,5 +40,11 @@ export default function Header() {
         </form>
       </div>
     </div>
+    </header>
+   
   )
+
+ 
+    
+  
 }
