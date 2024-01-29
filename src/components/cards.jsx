@@ -6,7 +6,7 @@ const Cards = () => {
     const [noteBookData, setNoteBook] = useState([])
 
     useEffect(() => {
-        getData("notebook")
+        getData("notebook", "localServer")
         .then(parsData => {
             setNoteBook(parsData)
         })

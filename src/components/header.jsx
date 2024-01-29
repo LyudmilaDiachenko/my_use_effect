@@ -1,5 +1,6 @@
 import React, { createRef, useState } from 'react'
 import s from "../style/header.module.css"
+import Nav from './nav'
 
 export default function Header() {
     
@@ -20,10 +21,7 @@ export default function Header() {
     return (
       <header className={s.hearder}>
       <div className={s.logo}>maxvel</div>
-      <a href="/main">Main</a>
-      <a href="/catalog">Catalog</a>
-      <a href="/news">News</a>
-
+      <Nav />
       <div className={s.frame}>
       <div className={s.div}>
         <form className={s.div2}>
